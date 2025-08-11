@@ -6,7 +6,7 @@ let fechaInicio;
 if (localStorage.getItem("fechaInicio")) {
   fechaInicio = new Date(localStorage.getItem("fechaInicio"));
 } else {
-  fechaInicio = new Date('2025-08-01');
+  fechaInicio = new Date('2025-08-10');
 }
 
 // Aseguramos que esté a medianoche
@@ -116,3 +116,4 @@ document.querySelector(".b2").addEventListener("click", () => {
 
   actualizarContador();
 });
+
